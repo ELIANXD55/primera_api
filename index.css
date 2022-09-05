@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.cards {
+    border:  solid 1px  black;
+    width: 400px;
+    height: 180px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    margin: 20px ;
+    box-shadow: 0 0 20px #5CAD4A ;
+}
+
+.cards img {
+    width: 45%;
+    height: 100%;
+}
+
+.body-card {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color:  rgb(255, 255, 255);
+    background-color: #3B3E43;
+}
+
+#section_cards {
+    background-color: #202328;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+nav {
+    background-color: #202328;
+    margin: 0;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+}
